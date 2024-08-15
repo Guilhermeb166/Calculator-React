@@ -1,6 +1,5 @@
 .wrapper {
   background-color: #202020;
-  padding: 10px 2px 2px;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -20,22 +19,59 @@
   display: flex;
   align-items: center;
   width: 100%;
-  margin-left: 30px;
-  height: 20px;
+  height: 30px;
+  justify-content: space-between;
 }
-.wrapper .title > img {
+.wrapper .title > div {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+.wrapper .title > div > img {
   width: 15px;
   height: 15px;
   margin-right: 8px;
 }
-.wrapper .title p {
+.wrapper .title > div p {
   font-size: 0.8em;
   font-weight: 500;
   letter-spacing: 1px;
 }
-.wrapper > div {
+.wrapper .title .close_control {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  height: 100%;
+}
+.wrapper .title .close_control > p {
+  height: 100%;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper .title .close_control > p:hover {
+  background-color: #363636;
+}
+.wrapper .title .close_control .close {
+  height: 100%;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper .title .close_control .close:hover {
+  background-color: #C42B1C;
+}
+.wrapper .calculator {
   display: flex;
   align-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 10px 2px 2px;
+}
+.wrapper .calculator > div {
+  display: flex;
 }
 .wrapper .result {
   display: flex;

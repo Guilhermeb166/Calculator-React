@@ -5,7 +5,7 @@ export default function Icon() {
 
     const [visible, setVisible] = useState(false)
     const handleIconClick = () => {
-        setVisible(prevVisible => !prevVisible)
+        setVisible(true)
         //A função que você passa para setVisible recebe o valor atual do estado como argumento. No caso do exemplo, esse argumento é chamado de prevVisible (ou qualquer outro nome que você escolher). O propósito desse argumento é permitir que você atualize o estado com base no valor atual.
         
     }
