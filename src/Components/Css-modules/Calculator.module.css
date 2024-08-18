@@ -73,6 +73,13 @@
 .wrapper .calculator > div {
   display: flex;
 }
+.wrapper .history {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  font-size: 18px;
+  color: #bbb;
+}
 .wrapper .result {
   display: flex;
   justify-content: flex-end;

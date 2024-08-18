@@ -58,9 +58,7 @@
                 background-color: #363636;
             }
            }
-           svg{
-            
-           }
+        
            
            .close{
             height: 100%;
@@ -87,6 +85,13 @@
         &>div{
             display: flex;
         }
+    }
+    .history{
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        font-size: 18px;
+        color: #bbb;
     }
     .result{
         display: flex;
